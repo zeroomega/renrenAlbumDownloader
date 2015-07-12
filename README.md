@@ -3,7 +3,7 @@
 
 ###使用方法
 修改configs.json文件中的用户名和密码为自己的用户名和密码。然后执行:
->python renrenAlbumDownloader.py -d
+>python renrenAlbumDownloader.py
 
 即可。相应的照片会自动根据相册名称保存到当前文件夹下。
 
@@ -11,7 +11,7 @@
 
 ###参数
 如果执行过程中遇到问题（请首先检查一下是否存在空的相册），可以使用 -d 参数打印调试信息
->python renrenAlbumDownloader.py
+>python renrenAlbumDownloader.py -d
 
 然后可以发到Issues 中，我如果有时间也许会看的。
 
